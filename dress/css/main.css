@@ -16355,11 +16355,12 @@ body.stop-scrolling {
 
 .ps-container {
     bottom: 64px !important;
+    margin-bottom: -91px !important;
 }
 
 .ps-theme-modern {
     background: url(http://embersurvival.com/blog/wp-content/uploads/2015/12/fa%CC%88lt_guide_glove_1.jpg) !important;
-    height: 375px !important;
+    height: 443px !important;
     width: 1031px !important;
     margin: 0 auto !important;
 }
@@ -16384,7 +16385,11 @@ body.stop-scrolling {
 }
 
 .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
-    height: 196px !important;
+    height: 149px !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+    padding: 12px 50px !important;
 }
 
 .ps-carousel.ps-theme-modern .ps-img-container img {
@@ -16411,4 +16416,9 @@ body.stop-scrolling {
 
 .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal nav span.ps-next {
     right: 12px !important;
+}
+
+.photoslurp-arrow {
+    position: relative;
+    bottom: 83px;
 }
