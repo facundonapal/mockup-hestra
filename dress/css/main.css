@@ -16353,19 +16353,19 @@ body.stop-scrolling {
     DRESS INDEX STYLES
 ==========================*/
 
-.ps-container {
+#hestra-carousel-product .ps-container {
     bottom: 64px !important;
     margin-bottom: -91px !important;
 }
 
-.ps-theme-modern {
+#hestra-carousel-product .ps-theme-modern {
     background: url(http://embersurvival.com/blog/wp-content/uploads/2015/12/fa%CC%88lt_guide_glove_1.jpg) !important;
     height: 443px !important;
     width: 1031px !important;
     margin: 0 auto !important;
 }
 
-.ps-note-add-pics-text {
+#hestra-carousel-product .ps-note-add-pics-text {
     color: #fff !important;
     font-family: Apercu,sans-serif !important;
     font-size: 32px !important;
@@ -16380,19 +16380,19 @@ body.stop-scrolling {
 
 /*IMG*/
 
-.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+#hestra-carousel-product .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
     background-color: transparent !important;
 }
 
-.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
+#hestra-carousel-product .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
     height: 149px !important;
 }
 
-.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+#hestra-carousel-product .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
     padding: 12px 50px !important;
 }
 
-.ps-carousel.ps-theme-modern .ps-img-container img {
+#hestra-carousel-product .ps-carousel.ps-theme-modern .ps-img-container img {
     border: none !important;
     border-radius: 2px;
 }
@@ -16422,3 +16422,8 @@ body.stop-scrolling {
     position: relative;
     bottom: 83px;
 }
+
+/*=========================
+    DRESS LOOKBOOK STYLES
+==========================*/
+
