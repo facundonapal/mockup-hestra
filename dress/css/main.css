@@ -16386,6 +16386,15 @@ body.stop-scrolling {
 .ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
     height: 196px !important;
 }
+
+.ps-carousel.ps-theme-modern .ps-img-container img {
+    border: none !important;
+    border-radius: 2px;
+}
+/*.ps-images {
+    transform: translateX(9px) !important;
+}*/
+
 /*NAV*/
 
 .ps-carousel.ps-theme-modern .ps-carousel-slider nav span.ps-prev {
