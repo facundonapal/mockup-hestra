@@ -10859,7 +10859,7 @@ body {
 
 @font-face {
     font-family: "URW Century Schoolbook W01";
-    src: url(../assets/fonts/century-schoolbook/25b87865-a7cc-458b-84fb-f6b963f30929.woff) format("woff");
+    src: url(../assets/fonts/25b87865-a7cc-458b-84fb-f6b963f30929.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -10873,7 +10873,7 @@ body {
 
 @font-face {
     font-family: "URW Century Schoolbook W01";
-    src: url(../assets/fonts/century-schoolbook/3a5683f2-010a-44ba-b76d-a5f5ca42ec85.woff) format("woff");
+    src: url(../assets/fonts/3a5683f2-010a-44ba-b76d-a5f5ca42ec85.woff) format("woff");
     font-weight: 400;
     font-style: italic
 }
@@ -10887,7 +10887,7 @@ body {
 
 @font-face {
     font-family: HestraDressIcons;
-    src: url(../iconfonts/h-dress-icon.woff?b3b51736891e) format("woff"),url(../iconfonts/h-dress-icon.woff2?b3b51736891e) format("woff2");
+    src: url(../assets/fonts/h-dress-icon.woff) format("woff"),url(../iconfonts/h-dress-icon.woff2?b3b51736891e) format("woff2");
     font-weight: 400;
     font-style: normal
 }
@@ -11023,63 +11023,63 @@ body {
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-light-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-light-pro.woff) format("woff");
     font-weight: 200;
     font-style: normal
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-regular-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-regular-pro.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-medium-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-medium-pro.woff) format("woff");
     font-weight: 600;
     font-style: normal
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-bold-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-bold-pro.woff) format("woff");
     font-weight: 700;
     font-style: normal
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-light-italic-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-light-italic-pro.woff) format("woff");
     font-weight: 200;
     font-style: italic
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-italic-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-italic-pro.woff) format("woff");
     font-weight: 400;
     font-style: italic
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-medium-italic-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-medium-italic-pro.woff) format("woff");
     font-weight: 600;
     font-style: italic
 }
 
 @font-face {
     font-family: Apercu;
-    src: url(../assets/fonts/apercu/apercu-bold-italic-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-bold-italic-pro.woff) format("woff");
     font-weight: 700;
     font-style: italic
 }
 
 @font-face {
     font-family: "Apercu Mono";
-    src: url(../assets/fonts/apercu/apercu-mono-regular-pro.woff) format("woff");
+    src: url(../assets/fonts/apercu-mono-regular-pro.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -16348,3 +16348,58 @@ body.stop-scrolling {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+/*=========================
+    DRESS INDEX STYLES
+==========================*/
+
+.ps-container {
+    bottom: 64px !important;
+}
+
+.ps-theme-modern {
+    background: url(http://embersurvival.com/blog/wp-content/uploads/2015/12/fa%CC%88lt_guide_glove_1.jpg) !important;
+    height: 375px !important;
+    width: 1031px !important;
+    margin: 0 auto !important;
+}
+
+.ps-note-add-pics-text {
+    color: #fff !important;
+    font-family: Apercu,sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    letter-spacing: 2.24px !important;
+    line-height: 40px !important;
+    text-align: center !important;
+    width: 100% !important;
+    text-transform: uppercase !important;
+    margin-top: 82px !important;
+}
+
+/*IMG*/
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal {
+    background-color: transparent !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal .ps-img-container {
+    height: 196px !important;
+}
+/*NAV*/
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider nav span.ps-prev {
+    background: url(https://static.photoslurp.com/widget/v3/images/modern/prev-white.svg) no-repeat !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider nav span.ps-next {
+    background: url(https://static.photoslurp.com/widget/v3/images/modern/next-white.svg) no-repeat !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal nav span.ps-prev {
+    left: 12px !important;
+}
+
+.ps-carousel.ps-theme-modern .ps-carousel-slider.ps-slider-horizontal nav span.ps-next {
+    right: 12px !important;
+}
