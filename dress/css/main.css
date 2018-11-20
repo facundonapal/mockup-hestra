@@ -16353,13 +16353,14 @@ body.stop-scrolling {
     DRESS INDEX STYLES
 ==========================*/
 
-#hestra-carousel-product .ps-container {
+.ps-container{
     bottom: 64px !important;
     margin-bottom: -91px !important;
 }
 
+
 #hestra-carousel-product .ps-theme-modern {
-    background: url(http://embersurvival.com/blog/wp-content/uploads/2015/12/fa%CC%88lt_guide_glove_1.jpg) !important;
+    background: url(../assets/img/carousel-background.jpg) !important;
     height: 443px !important;
     width: 1031px !important;
     margin: 0 auto !important;

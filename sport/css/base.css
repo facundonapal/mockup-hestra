@@ -1,0 +1,25 @@
+.typo-light {
+  &, *, a {
+    color: white;
+  }
+
+  &.underlined, .underlined {
+    border-bottom-color: white;
+  }
+
+  &.typo-shadow, .typo-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+    transition: text-shadow .3s;
+    html.no-touchevents &:hover, &:focus {
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    }
+  }
+}
+
+.typo-black {
+  color: $darkGrey;
+}
+
+.real-underlined {
+  text-decoration: underline;
+}
